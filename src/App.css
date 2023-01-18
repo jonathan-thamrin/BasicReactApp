@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(-90deg, lightgrey, lightblue);
+}
+
+div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h2 {
+  margin: 3em 0;
+}
+
+#shopping-list-form {
+  align-items: center;
+  margin-bottom: 5em;
+}
+
+#shopping-list-form > * {
+  margin: 0 1%;
+}
+
+.item-cards {
+  width: 70%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.item-card {
+  width: 15em;
+  height: 15em;
+  margin: 2em;
+}
+
+.item-card .img-fade {
+  opacity: 70%;
+}
+
+.item-complete {
+  text-decoration: line-through;
+}
